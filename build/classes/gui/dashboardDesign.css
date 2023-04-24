@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-Mar-2023, 04:58:52
+    Author     : amine
+*/
+
+
+.nav-form{
+    -fx-background-color: #0000FF;
+}
+
+.nav-btn{
+   -fx-background-color: transparent;
+   -fx-cursor: hand;
+   -fx-font-family: "System";
+   -fx-font-size: 16px;
+   -fx-text-fill: #fff;
+   -fx-alignment: center-left;
+}
+
+.nav-btn:hover{
+    -fx-background-color: #5B0000;
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+
+.btn{
+    -fx-background-color: #720000;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+    -fx-font-family:"System";
+    -fx-font-weight:800;
+    -fx-cursor: hand;
+}
+
+.btn:hover{
+    -fx-background-color: #5B0000;
+}

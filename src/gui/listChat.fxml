@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="listChatPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="757.0" prefWidth="1233.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ListChatController">
+    
+   <children>
+      <TableView fx:id="tableChat" editable="true" layoutX="67.0" layoutY="163.0" prefHeight="558.0" prefWidth="1098.0">
+         <columns>
+            <TableColumn fx:id="IdChatCell" prefWidth="164.0000057220459" text="ID Chat" />
+            <TableColumn fx:id="MessageChatCell" prefWidth="932.0" text="Message Chat" />
+         </columns>
+      </TableView>
+      <Button fx:id="bntAddChat" layoutX="151.0" layoutY="74.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="177.0" text="Ajouter Chat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtSearchChat" layoutX="508.0" layoutY="75.0" prefHeight="40.0" prefWidth="282.0" promptText="Search..." styleClass="search" stylesheets="@dashboardDesign.css" />
+      <Button fx:id="btnDeleteChat" layoutX="913.0" layoutY="74.0" mnemonicParsing="false" onAction="#supprimerChat" prefHeight="41.0" prefWidth="94.0" styleClass="btn" text="Delete" />
+   </children>
+</AnchorPane>
